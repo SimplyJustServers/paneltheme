@@ -110,7 +110,7 @@
                   </li>
                   <li class="nav-item">
                      <a class="nav-link {{ Route::currentRouteName() !== 'account.security' ?: 'active' }}" href="{{ route('account.security')}}">
-                     <i class="fas fa-lock"></i> @lang('navigation.account.security_controls')
+                     <i class="fas fa-lock blackiconcolor"></i> @lang('navigation.account.security_controls')
                      </a>
                   </li>
                   <li class="nav-item">
